@@ -23,6 +23,9 @@ c_list = [1,5,6, 3, 2]
 result = (33 in c_list)
 print(result)
 
+# 삭제
+del c_list[0] # 인덱스 위치의 값을 삭제
+c_list.remove(2) # 2 삭제
 
 # 딕셔너리
 a_dict = {'name':'bob', 'age':27, 'friend' :['영희', '철수']}
